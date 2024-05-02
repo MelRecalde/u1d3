@@ -6,13 +6,19 @@ nav {
 
 .subtitle {
     border-top:3px solid rgb(244, 208, 142);
-#PREFAZIONE{ color: rgb(15, 90, 128);  text-align: center; background-color: rgb(248, 224, 183); border-top:5px; padding:0,5em; height:2em; border-top:3px solid rgb(244, 208, 142);
+    { color: rgb(15, 90, 128);  text-align: center; background-color: rgb(248, 224, 183); border-top:5px; padding:0,5em; height:2em; border-top:3px solid rgb(244, 208, 142);
 }
 }
 
 .recipe {
     display: block;
     margin: 0;
+    align-items: center;
+}
+.container-title {
+    text-align: center;
+}
+.recipe {
     align-items: center;
 }
 
