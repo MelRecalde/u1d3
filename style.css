@@ -2,12 +2,26 @@ nav {
     justify-content: center;
     display: block;
     text-align: center;
+    padding-bottom: ;
+}
+
+body {
+    margin: auto;
+    max-width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .subtitle {
-    border-top:3px solid rgb(244, 208, 142);
-    { color: rgb(15, 90, 128);  text-align: center; background-color: rgb(248, 224, 183); border-top:5px; padding:0,5em; height:2em; border-top:3px solid rgb(244, 208, 142);
-}
+    border-top: 3px solid rgb(244, 208, 142);
+    color: rgb(15, 90, 128);
+    text-align: center;
+    background-color: rgba(248, 224, 183, 0.675);
+    border-top: 5px;
+    padding: 0, 5px;
+    height: 2em;
+    border-top: 3px solid rgb(255, 205, 111);
+    line-height: 1px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .recipe {
@@ -15,20 +29,30 @@ nav {
     margin: 0;
     align-items: center;
 }
+
 .container-title {
     text-align: center;
 }
-.recipe {
-    align-items: center;
-}
+
 
 h5 {
     color: rgb(146, 26, 26);
 }
-.featured {
-    margin: auto;
-    border: solid start darkgoldenrod ;
+h2,h3 {
+    border-bottom: solid aquamarine;
 }
+
+.feature {
+    border: solid start darkgoldenrod;
+    border-left: 3px solid rgb(255, 180, 41);
+    padding-left: 1em;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    text-align: start;
+}
+a {
+    color: #177;
+ }
 
 figcaption {
     color: gray;
